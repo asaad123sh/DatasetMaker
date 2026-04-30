@@ -19,8 +19,8 @@
 
 | Section | Link |
 |---------|------|
-| **Quick Install Methods (Windows)** | [Install Options](#quick-install-methods-windows) |
-| **Installation & Setup** | [Get Started](#-installation--setup) |
+| ?? **Quick Install Methods (Windows)** | [Install Options](#quick-install-methods-windows) |
+| ?? **Installation & Setup** | [Get Started](#-installation--setup) |
 | ðŸŽ¯ **Overview** | [Jump to Overview](#-overview) |
 | ðŸ—ï¸ **Project Architecture** | [View Architecture](#-project-architecture) |
 | ðŸ”§ **Module Specifications** | [Explore Modules](#-module-specifications) |
@@ -1055,4 +1055,3 @@ If you use this dataset generator in research or publication, please cite:
 ---
 
 *Built with â¤ï¸ for the AI community. Happy dataset generation!*
-
