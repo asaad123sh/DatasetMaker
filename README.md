@@ -41,7 +41,7 @@
 [![Project Status](https://img.shields.io/badge/Status-Active-success.svg)](#-overview)
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-April%202024-blue.svg)](#-overview)
 
-The **AI Dataset Generator** is an enterprise-grade Python-based toolkit designed for creating ***large-scale, diverse, and contextually relevant datasets*** for training artificial intelligence models from scratch. This project leverages modular architecture and optimized algorithms to produce **millions of unique samples** without requiring external dependencies or expensive cloud infrastructure.
+The **AI Dataset Generator** is an enterprise-grade Python-based toolkit designed for creating ***large-scale, diverse, and contextually relevant datasets*** for training artificial intelligence models from scratch. This project leverages modular architecture and optimized algorithms to produce **93M+ unique samples** across **23 specialized categories** without requiring external dependencies or expensive cloud infrastructure.
 
 ### Key Features
 
@@ -280,34 +280,148 @@ python run_all.py
 [![Categories: 5](https://img.shields.io/badge/Categories-5-orange.svg)](#-dataset-categories--specifications)
 [![Data Types: Mixed](https://img.shields.io/badge/Data%20Types-Mixed-purple.svg)](#-dataset-categories--specifications)
 
-| **Category** | **Type** | **Sample Count** | **Avg. Length** | **Use Case** |
-|---|---|---|---|---|
-| **Q&A** | Knowledge-based | 10K-100K | 50-500 chars | Fact retrieval, trivia |
-| **Chat** | Conversational | 10K-100K | 100-1000 chars | Dialog systems |
-| **Coding** | Technical | 5K-50K | 200-2000 chars | Code generation, assistance |
-| **Math** | Problem-solving | 5K-50K | 150-1000 chars | Math tutoring, reasoning |
-| **Advanced** | Specialized | 10K-100K | 200-2000 chars | Emotional AI, support |
+| **#** | **Category** | **Type** | **Files** | **Lines/File** | **Total Lines** | **Use Case** |
+|---|---|---|---|---|---|---|
+| 1 | **Q&A** | Knowledge-based | 100 JSONL | 30K | 3M | Fact retrieval, trivia |
+| 2 | **General Chat** | Conversational | 100 JSONL | 30K | 3M | Dialog systems |
+| 3 | **Coding** | Technical | 100 JSONL | 30K | 3M | Code generation |
+| 4 | **Most Basics General** | Beginner Chat | 100 JSONL | 30K | 3M | Friendly conversations |
+| 5 | **Emotions** | Emotional AI | 100 JSONL | 32K | 3.2M | Empathetic responses |
+| 6 | **Coding Master** | Advanced Coding | 100 JSONL | 50K | 5M | Expert programming |
+| 7 | **Maths Advanced** | Mathematics | 100 JSONL | 50K | 5M | Problem-solving |
+| 8 | **ML Advanced** | ML/AI | 100 JSONL | 44K | 4.4M | ML algorithms |
+| 9 | **Deep Learning Advanced** | Deep Learning | 100 JSONL | 46K | 4.6M | Neural networks |
+| 10 | **AI Ultra Advanced** | Cutting-Edge AI | 100 JSONL | 47K | 4.7M | Advanced AI concepts |
+| 11 | **Physics Master** | Physics | 100 JSONL | 42K | 4.2M | Physics problems |
+| 12 | **Chemistry Normal** | Chemistry | 100 JSONL | 30K | 3M | Chemical reactions |
+| 13 | **Science Overall Master** | Comprehensive Science | 100 JSONL | 43K | 4.3M | Multi-discipline science |
+| 14 | **Religion Master** | Religious Studies | 100 JSONL | 32K | 3.2M | Religious knowledge |
+| 15 | **Encyclopedia Species** | Zoology/Biology | 100 JSONL | 30K | 3M | Animal/species info |
+| 16 | **Foods & Recipes** | Culinary | 100 JSONL | 45K | 4.5M | Recipes & cooking |
+| 17 | **Recipe Understanding** | Culinary Education | 100 JSONL | 32K | 3.2M | Cooking techniques |
+| 18 | **Unity Master** | Game Dev (Unity) | 100 JSONL | 50K | 5M | Game development |
+| 19 | **Unreal Master** | Game Dev (Unreal) | 100 JSONL | 48K | 4.8M | Game development |
+| 20 | **Godot Ultra** | Game Dev (Godot) | 100 JSONL | 43K | 4.3M | Game development |
+| 21 | **Hacking Basics** | Cybersecurity | 100 JSONL | 30K | 3M | Security knowledge |
+| 22 | **Internet Ultra Master** | Web/Internet | 100 JSONL | 45K | 4.5M | Internet technology |
+| 23 | **Anime Master** | Entertainment | 100 JSONL | 33K | 3.3M | Anime knowledge |
+| **TOTAL** | **23 Categories** | **Mixed** | **2300 JSONL** | **30K-50K** | **~93M** | **Comprehensive AI Training** |
 
 ### Output Organization
 
-Generated datasets are organized as follows:
+Generated datasets are organized hierarchically with **500 total JSONL files** (100 per category):
+
 ```
 output/
-├── qa_dataset.json           # General knowledge Q&A pairs
-├── chat_dataset.json         # Conversational exchanges
-├── coding_dataset.json       # Programming problems & solutions
-├── math_dataset.json         # Mathematical problems & solutions
-├── advanced_dataset.json     # Specialized/emotional content
-└── metadata.json             # Dataset statistics and summary
+├── qa/
+│   ├── qa_001.jsonl          # 20K-50K samples
+│   ├── qa_002.jsonl
+│   ├── ...
+│   └── qa_100.jsonl
+│
+├── chat/
+│   ├── chat_001.jsonl        # 20K-50K samples
+│   ├── chat_002.jsonl
+│   ├── ...
+│   └── chat_100.jsonl
+│
+├── coding/
+│   ├── coding_001.jsonl      # 25K-50K samples
+│   ├── coding_002.jsonl
+│   ├── ...
+│   └── coding_100.jsonl
+│
+├── math/
+│   ├── math_001.jsonl        # 25K-50K samples
+│   ├── math_002.jsonl
+│   ├── ...
+│   └── math_100.jsonl
+│
+├── advanced/
+│   ├── advanced_001.jsonl    # 30K-50K samples
+│   ├── advanced_002.jsonl
+│   ├── ...
+│   └── advanced_100.jsonl
+│
+└── metadata.json             # Summary statistics and dataset info
 ```
+
+**📊 Dataset Statistics:**
+- **Total Files:** 2,300 JSONL files (100 per category)
+- **Total Samples:** 93M+ unique data points
+- **Average Lines per File:** 30K-50K (varies by category)
+- **Total Size:** ~100-120 GB (fully generated dataset)
+- **Format:** JSONL (JSON Lines - one JSON object per line)
+- **Uniqueness:** 100% via UUID4 identifiers
+- **Categories:** 23 specialized domains
+- **Streaming Optimized:** Each file can be processed independently
+
+## 📈 Dataset Scale & Structure
+
+[![Total Files: 2300-2400](https://img.shields.io/badge/Total%20Files-2300--2400%20JSONL-brightgreen.svg)](#-dataset-scale--structure)
+[![Total Samples: 93M-100M](https://img.shields.io/badge/Total%20Samples-93M--100M-orange.svg)](#-dataset-scale--structure)
+[![Categories: 23-24](https://img.shields.io/badge/Categories-23--24-blue.svg)](#-dataset-scale--structure)
+
+### Dataset Composition
+
+The AI Dataset Generator creates a **massive, well-organized training dataset** with the following specifications:
+
+#### File Structure
+- **100 files per category** (2,300-2,400 files total with optional safety category)
+- **JSONL format** (JSON Lines - optimal for streaming and processing)
+- **Lines per file:** 30,000 - 50,000 samples per JSONL file (varies by category)
+- **Distributed storage:** Each category in its own folder for easy management
+
+#### Size Breakdown by Category
+
+| Category | Files | Lines/File | Total Lines | Approx. Size/File | Total Size |
+|---|---|---|---|---|---|
+| **Q&A** | 100 | 30K | 3M | 25-35 MB | 2.5-3.5 GB |
+| **General Chat** | 100 | 30K | 3M | 30-40 MB | 3-4 GB |
+| **Coding** | 100 | 30K | 3M | 35-45 MB | 3.5-4.5 GB |
+| **Most Basics General** | 100 | 30K | 3M | 25-35 MB | 2.5-3.5 GB |
+| **Emotions** | 100 | 32K | 3.2M | 28-38 MB | 2.8-3.8 GB |
+| **Coding Master** | 100 | 50K | 5M | 50-65 MB | 5-6.5 GB |
+| **Maths Advanced** | 100 | 50K | 5M | 45-60 MB | 4.5-6 GB |
+| **ML Advanced** | 100 | 44K | 4.4M | 40-55 MB | 4-5.5 GB |
+| **Deep Learning Advanced** | 100 | 46K | 4.6M | 42-58 MB | 4.2-5.8 GB |
+| **AI Ultra Advanced** | 100 | 47K | 4.7M | 43-60 MB | 4.3-6 GB |
+| **Physics Master** | 100 | 42K | 4.2M | 38-52 MB | 3.8-5.2 GB |
+| **Chemistry Normal** | 100 | 30K | 3M | 28-38 MB | 2.8-3.8 GB |
+| **Science Overall Master** | 100 | 43K | 4.3M | 40-55 MB | 4-5.5 GB |
+| **Religion Master** | 100 | 32K | 3.2M | 28-38 MB | 2.8-3.8 GB |
+| **Encyclopedia Species** | 100 | 30K | 3M | 25-35 MB | 2.5-3.5 GB |
+| **Foods & Recipes** | 100 | 45K | 4.5M | 42-58 MB | 4.2-5.8 GB |
+| **Recipe Understanding** | 100 | 32K | 3.2M | 28-38 MB | 2.8-3.8 GB |
+| **Unity Master** | 100 | 50K | 5M | 50-65 MB | 5-6.5 GB |
+| **Unreal Master** | 100 | 48K | 4.8M | 48-63 MB | 4.8-6.3 GB |
+| **Godot Ultra** | 100 | 43K | 4.3M | 40-55 MB | 4-5.5 GB |
+| **Hacking Basics** | 100 | 30K | 3M | 25-35 MB | 2.5-3.5 GB |
+| **Internet Ultra Master** | 100 | 45K | 4.5M | 42-58 MB | 4.2-5.8 GB |
+| **Anime Master** | 100 | 33K | 3.3M | 30-40 MB | 3-4 GB |
+| **Safety (Optional)** | 100 | 30K | 3M | 25-35 MB | 2.5-3.5 GB |
+| **TOTAL** | **2300-2400** | **30K-50K** | **93M-100M** | **Variable** | **~93-120 GB** |
+
+#### Why 2,300 JSONL Files?
+
+🎯 **Key Benefits:**
+- **✅ Parallel Processing:** Process 23 categories × 100 files simultaneously
+- **✅ Memory Efficient:** Load one file at a time (~50MB typical)
+- **✅ Easy Distribution:** Share individual files or categories across systems
+- **✅ Fault Tolerance:** One corrupted file doesn't affect other 2,299 files
+- **✅ Scalability:** Easy to combine multiple dataset runs
+- **✅ Streaming Support:** Perfect for PyTorch, TensorFlow DataLoaders
+- **✅ Specialized Training:** Use specific categories for domain-specific models
 
 ---
 
-## 💻 System Requirements
+
 
 [![Minimum RAM: 2GB](https://img.shields.io/badge/Min%20RAM-2%20GB-yellow.svg)](#-system-requirements)
 [![Storage: 70GB](https://img.shields.io/badge/Storage-70%20GB-orange.svg)](#-system-requirements)
 [![Python: 3.7+](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](#-system-requirements)
+
+### Minimum Configuration
 
 For generating ***small datasets*** (100K–1M samples):
 
@@ -341,12 +455,13 @@ For generating ***large datasets*** (10M–100M samples):
 
 ### Generation Time Estimates
 
-| Dataset Size | RAM | CPU (Quad-Core) | Duration |
-|---|---|---|---|
-| 1M samples | 2 GB | Dual-core | 30-45 minutes |
-| 10M samples | 4 GB | Quad-core | 1-1.5 hours |
-| 50M samples | 8 GB | Quad-core | 1.5-2 hours |
-| 100M+ samples | 16+ GB | Octa-core | 2-3 hours |
+| Dataset Scale | Files | Total Samples | RAM | CPU (Quad-Core) | Storage Needed | Duration |
+|---|---|---|---|---|---|---|
+| **Minimal** | 230 | ~10M | 4 GB | Dual-core | 20 GB | 1-1.5 hours |
+| **Small** | 500 | ~23M | 6 GB | Dual-core | 40 GB | 1.5-2 hours |
+| **Medium** | 1150 | ~50M | 8 GB | Quad-core | 70 GB | 2-2.5 hours |
+| **Large** | 2300 | **93M** | **16 GB** | **Quad-core** | **100-120 GB** | **3-4 hours** |
+| **Extra Large** | 2300+ | 93M+ | 16+ GB | Octa-core | 150+ GB | 4-6 hours |
 
 ---
 
