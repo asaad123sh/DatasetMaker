@@ -34,6 +34,104 @@
 | 🤝 **Contributing** | [Contribute](#-contributing) |
 | 📄 **License & Citation** | [License Info](#-license--citation) |
 
+## Quick Install Methods (Windows)
+
+Run this project file to start generation:
+```bash
+python run_all.py
+```
+
+### Method 1: PowerShell (Recommended)
+Use this first. If other methods fail, come back to this method.
+
+```powershell
+git clone https://github.com/asaad123sh/DatasetMaker.git
+cd DatasetMaker
+python --version
+python run_all.py
+```
+
+### Method 2: VS Code
+1. Open VS Code.
+2. Click **File > Open Folder** and select `DatasetMaker`.
+3. Open the built-in terminal: **Terminal > New Terminal**.
+4. Make sure terminal path is inside project folder.
+5. Run:
+```bash
+python --version
+python run_all.py
+```
+
+### Method 3: Direct Run (No Git)
+1. Download project ZIP from GitHub.
+2. Extract it to a folder (for example: `D:\DatasetMaker`).
+3. Open that folder in File Explorer.
+4. In the address bar, type `powershell` and press Enter.
+5. Run:
+```powershell
+python --version
+python run_all.py
+```
+
+### Python Must Be in System PATH
+If `python --version` does not work, Python is not added to PATH.
+
+#### Add Python to PATH During Install (Best)
+1. Download Python from `https://www.python.org/downloads/windows/`.
+2. Start installer.
+3. On first installer screen, check:
+   - `Add python.exe to PATH`
+4. Click **Install Now**.
+5. Close and reopen terminal.
+6. Verify:
+```powershell
+python --version
+```
+
+#### Add Python to PATH Manually (Already Installed)
+1. Find your Python install path (example):
+   - `C:\Users\<YourUser>\AppData\Local\Programs\Python\Python312\`
+2. Copy these two paths:
+   - Python folder path
+   - Scripts folder path (same path + `\Scripts`)
+3. Open Windows Start and search: `Edit the system environment variables`.
+4. Click **Environment Variables...**
+5. Under **User variables** (or **System variables**), select `Path` and click **Edit**.
+6. Click **New** and add:
+   - `C:\Users\<YourUser>\AppData\Local\Programs\Python\Python312\`
+   - `C:\Users\<YourUser>\AppData\Local\Programs\Python\Python312\Scripts\`
+7. Click **OK** on all windows.
+8. Restart terminal.
+9. Verify:
+```powershell
+python --version
+```
+
+### Very Very Very Last Option (Not Recommended)
+Use only if you understand environment variable risks.
+
+#### PowerShell Auto-Search + Auto-Set PATH
+```powershell
+$p = Get-ChildItem "$env:LOCALAPPDATA\Programs\Python" -Directory -ErrorAction SilentlyContinue | Sort-Object Name -Descending | Select-Object -First 1
+if ($p) {
+  [Environment]::SetEnvironmentVariable("Path", $env:Path + ";" + $p.FullName + ";" + (Join-Path $p.FullName "Scripts"), "User")
+  Write-Host "Python paths added. Restart terminal and run: python --version"
+} else {
+  Write-Host "Python folder not found. Install Python first."
+}
+```
+
+#### CMD Auto-Search + Auto-Set PATH
+```cmd
+for /d %D in ("%LocalAppData%\Programs\Python\Python*") do set PYDIR=%D
+if defined PYDIR (
+  setx PATH "%PATH%;%PYDIR%;%PYDIR%\Scripts"
+  echo Python paths added. Restart terminal and run: python --version
+) else (
+  echo Python folder not found. Install Python first.
+)
+```
+
 ---
 
 ## 📝 Overview
