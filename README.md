@@ -1,4 +1,4 @@
-# 🚀 AI Dataset Generator - Comprehensive Documentation
+# ðŸš€ AI Dataset Generator - Comprehensive Documentation
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.7+](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://www.python.org/downloads/)
@@ -9,31 +9,31 @@
 [![Code Quality](https://img.shields.io/badge/Code%20Quality-A%2B-brightgreen.svg)](https://github.com/yourusername/ai-dataset-generator)
 [![Dataset Size](https://img.shields.io/badge/Dataset%20Scale-Millions%20of%20Samples-orange.svg)](#)
 
-**[🌐 Website](#)** • **[📚 Documentation](#)** • **[💬 Join Community](#)** • **[🐛 Report Issues](https://github.com/asaad123sh/DatasetMaker/issues)** • **[⭐ Star Us](https://github.com/asaad123sh/DatasetMaker)**
+**[ðŸŒ Website](#)** â€¢ **[ðŸ“š Documentation](#)** â€¢ **[ðŸ’¬ Join Community](#)** â€¢ **[ðŸ› Report Issues](https://github.com/asaad123sh/DatasetMaker/issues)** â€¢ **[â­ Star Us](https://github.com/asaad123sh/DatasetMaker)**
 
 > **Build large-scale, high-quality training datasets for AI models from scratch with minimal system overhead**
 
 ---
 
-## 📖 Table of Contents
+## ðŸ“– Table of Contents
 
 | Section | Link |
 |---------|------|
-| 🎯 **Overview** | [Jump to Overview](#-overview) |
-| 🏗️ **Project Architecture** | [View Architecture](#-project-architecture) |
-| 🔧 **Module Specifications** | [Explore Modules](#-module-specifications) |
-| 📂 **Dataset Categories** | [Browse Categories](#-dataset-categories--specifications) |
-| 💻 **System Requirements** | [Check Requirements](#-system-requirements) |
-| 📦 **Installation & Setup** | [Get Started](#-installation--setup) |
-| 🔰 **Quick Install Methods (Windows)** | [Install Options](#quick-install-methods-windows) |
-| 🚀 **Usage Instructions** | [Learn How to Use](#-usage-instructions) |
-| 📊 **Dataset Output Structure** | [See Output Format](#-dataset-output-structure) |
-| ⚡ **Performance & Benchmarks** | [View Performance](#-performance--benchmarks) |
-| 🛡️ **Data Quality Assurance** | [Quality Metrics](#-data-quality-assurance) |
-| 🔧 **Troubleshooting** | [Fix Issues](#-troubleshooting) |
-| ❓ **FAQ** | [Get Answers](#-faq) |
-| 🤝 **Contributing** | [Contribute](#-contributing) |
-| 📄 **License & Citation** | [License Info](#-license--citation) |
+| **Quick Install Methods (Windows)** | [Install Options](#quick-install-methods-windows) |
+| **Installation & Setup** | [Get Started](#-installation--setup) |
+| ðŸŽ¯ **Overview** | [Jump to Overview](#-overview) |
+| ðŸ—ï¸ **Project Architecture** | [View Architecture](#-project-architecture) |
+| ðŸ”§ **Module Specifications** | [Explore Modules](#-module-specifications) |
+| ðŸ“‚ **Dataset Categories** | [Browse Categories](#-dataset-categories--specifications) |
+| ðŸ’» **System Requirements** | [Check Requirements](#-system-requirements) |
+| ðŸš€ **Usage Instructions** | [Learn How to Use](#-usage-instructions) |
+| ðŸ“Š **Dataset Output Structure** | [See Output Format](#-dataset-output-structure) |
+| âš¡ **Performance & Benchmarks** | [View Performance](#-performance--benchmarks) |
+| ðŸ›¡ï¸ **Data Quality Assurance** | [Quality Metrics](#-data-quality-assurance) |
+| ðŸ”§ **Troubleshooting** | [Fix Issues](#-troubleshooting) |
+| â“ **FAQ** | [Get Answers](#-faq) |
+| ðŸ¤ **Contributing** | [Contribute](#-contributing) |
+| ðŸ“„ **License & Citation** | [License Info](#-license--citation) |
 
 ## Quick Install Methods (Windows)
 
@@ -135,7 +135,7 @@ if defined PYDIR (
 
 ---
 
-## 📝 Overview
+## ðŸ“ Overview
 
 [![Project Status](https://img.shields.io/badge/Status-Active-success.svg)](#-overview)
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-April%202024-blue.svg)](#-overview)
@@ -144,34 +144,34 @@ The **AI Dataset Generator** is an enterprise-grade Python-based toolkit designe
 
 ### Key Features
 
-✨ **Modular Architecture** — Each data category is independently generated and can be used separately or combined  
-🚀 **High Performance** — Generates tens of millions of samples in 2–3 hours  
-💾 **Storage Efficient** — Compressed JSON output with unique identifiers  
-🔧 **Zero External Dependencies** — Pure Python implementation using only standard library modules  
-🎯 **Highly Customizable** — Easy to modify generation logic for domain-specific data  
-📊 **Production-Ready** — Structured output suitable for PyTorch, TensorFlow, and other ML frameworks  
+âœ¨ **Modular Architecture** â€” Each data category is independently generated and can be used separately or combined  
+ðŸš€ **High Performance** â€” Generates tens of millions of samples in 2â€“3 hours  
+ðŸ’¾ **Storage Efficient** â€” Compressed JSON output with unique identifiers  
+ðŸ”§ **Zero External Dependencies** â€” Pure Python implementation using only standard library modules  
+ðŸŽ¯ **Highly Customizable** â€” Easy to modify generation logic for domain-specific data  
+ðŸ“Š **Production-Ready** â€” Structured output suitable for PyTorch, TensorFlow, and other ML frameworks  
 
 ---
 
-## 🏗️ Project Architecture
+## ðŸ—ï¸ Project Architecture
 
 The generator follows a **modular pipeline architecture**:
 
 ```mermaid
 graph TD
-    A["🚀 run_all.py<br/>Entry Point<br/>Orchestrates Pipeline"] --> B["📚 qa_gen.py<br/>Q&A Generator"]
-    A --> C["💬 chat_gen.py<br/>Chat Generator"]
-    A --> D["💻 coding_gen.py<br/>Coding Generator"]
-    A --> E["🔢 math_gen.py<br/>Math Generator"]
-    A --> F["⭐ advanced_categories_gen.py<br/>23 Advanced Categories"]
+    A["ðŸš€ run_all.py<br/>Entry Point<br/>Orchestrates Pipeline"] --> B["ðŸ“š qa_gen.py<br/>Q&A Generator"]
+    A --> C["ðŸ’¬ chat_gen.py<br/>Chat Generator"]
+    A --> D["ðŸ’» coding_gen.py<br/>Coding Generator"]
+    A --> E["ðŸ”¢ math_gen.py<br/>Math Generator"]
+    A --> F["â­ advanced_categories_gen.py<br/>23 Advanced Categories"]
     
-    B --> G["⚙️ engine.py<br/>Core Processing<br/>UUID Generation<br/>File Writing<br/>Data Formatting"]
+    B --> G["âš™ï¸ engine.py<br/>Core Processing<br/>UUID Generation<br/>File Writing<br/>Data Formatting"]
     C --> G
     D --> G
     E --> G
     F --> G
     
-    G --> H["📁 Output Directory<br/>2,300 JSONL Files<br/>93M+ Samples"]
+    G --> H["ðŸ“ Output Directory<br/>2,300 JSONL Files<br/>93M+ Samples"]
     
     style A fill:#4CAF50,stroke:#2E7D32,color:#fff,font-weight:bold
     style B fill:#2196F3,stroke:#1565C0,color:#fff
@@ -185,7 +185,7 @@ graph TD
 
 ---
 
-## 🔧 Module Specifications
+## ðŸ”§ Module Specifications
 
 [![Modules: 7](https://img.shields.io/badge/Modules-7-brightgreen.svg)](#-module-specifications)
 [![Status: Production](https://img.shields.io/badge/Status-Production%20Ready-success.svg)](#-module-specifications)
@@ -213,7 +213,7 @@ python run_all.py
 
 ---
 
-### 2. **engine.py** — Core Processing Engine
+### 2. **engine.py** â€” Core Processing Engine
 
 **Purpose:** Low-level data management and file I/O operations.
 
@@ -225,7 +225,7 @@ python run_all.py
 - **Batch Processing:** Optimizes memory usage for large datasets
 
 **Key Functions:**
-- `write_category_files()` — Writes structured data to JSON with proper formatting
+- `write_category_files()` â€” Writes structured data to JSON with proper formatting
 - UUID-based sample identification
 - Directory creation and management
 
@@ -242,7 +242,7 @@ python run_all.py
 
 ---
 
-### 3. **qa_gen.py** — Question-Answer Generator
+### 3. **qa_gen.py** â€” Question-Answer Generator
 
 **Purpose:** Produces high-quality question-answer pairs for general knowledge and trivia.
 
@@ -252,10 +252,10 @@ python run_all.py
 - **Diverse topic coverage** to ensure dataset richness
 
 **Characteristics:**
-- ✓ Factually accurate responses
-- ✓ Clear, concise answer formatting
-- ✓ Structured question-answer pairs
-- ✓ Suitable for knowledge-based models
+- âœ“ Factually accurate responses
+- âœ“ Clear, concise answer formatting
+- âœ“ Structured question-answer pairs
+- âœ“ Suitable for knowledge-based models
 
 **Sample Output:**
 ```json
@@ -267,7 +267,7 @@ python run_all.py
 
 ---
 
-### 4. **chat_gen.py** — Conversational Data Generator
+### 4. **chat_gen.py** â€” Conversational Data Generator
 
 **Purpose:** Creates realistic human-like conversational exchanges for dialogue-based AI training.
 
@@ -278,10 +278,10 @@ python run_all.py
 - **Emotional and contextual awareness** in responses
 
 **Characteristics:**
-- ✓ Natural language patterns
-- ✓ Contextual coherence across turns
-- ✓ Diverse conversation topics
-- ✓ Realistic user queries and responses
+- âœ“ Natural language patterns
+- âœ“ Contextual coherence across turns
+- âœ“ Diverse conversation topics
+- âœ“ Realistic user queries and responses
 
 **Use Cases:**
 - Chatbot training
@@ -291,7 +291,7 @@ python run_all.py
 
 ---
 
-### 5. **coding_gen.py** — Programming Task Generator
+### 5. **coding_gen.py** â€” Programming Task Generator
 
 **Purpose:** Generates coding problems, solutions, and explanations for AI model training on software engineering tasks.
 
@@ -302,10 +302,10 @@ python run_all.py
 - **Best practices** and optimization techniques
 
 **Characteristics:**
-- ✓ Syntactically correct code examples
-- ✓ Clear problem statements
-- ✓ Step-by-step solutions
-- ✓ Multiple programming paradigms
+- âœ“ Syntactically correct code examples
+- âœ“ Clear problem statements
+- âœ“ Step-by-step solutions
+- âœ“ Multiple programming paradigms
 
 **Sample Output:**
 ```json
@@ -317,7 +317,7 @@ python run_all.py
 
 ---
 
-### 6. **math_gen.py** — Mathematics Problem Generator
+### 6. **math_gen.py** â€” Mathematics Problem Generator
 
 **Purpose:** Creates mathematically sound problems with detailed step-by-step solutions.
 
@@ -328,10 +328,10 @@ python run_all.py
 - **Various difficulty levels** from basic to advanced
 
 **Characteristics:**
-- ✓ Mathematically accurate solutions
-- ✓ Detailed working shown for each problem
-- ✓ Clear explanation of mathematical principles
-- ✓ Suitable for math tutoring AI
+- âœ“ Mathematically accurate solutions
+- âœ“ Detailed working shown for each problem
+- âœ“ Clear explanation of mathematical principles
+- âœ“ Suitable for math tutoring AI
 
 **Sample Output:**
 ```json
@@ -343,23 +343,23 @@ python run_all.py
 
 ---
 
-### 7. **advanced_categories_gen.py** — Specialized Content Generator
+### 7. **advanced_categories_gen.py** â€” Specialized Content Generator
 
 **Purpose:** Produces advanced, contextually rich data for specialized AI applications.
 
 **Generated Content:**
-- **Emotional Support Conversations** — Empathetic, supportive dialogue
-- **Technical Advice** — Expert-level technical guidance
-- **Professional Communications** — Business and formal interactions
-- **Complex Problem-Solving** — Multi-step reasoning scenarios
-- **Relationship & Social Advice** — Interpersonal guidance
-- **Conflict Resolution** — De-escalation and mediation techniques
+- **Emotional Support Conversations** â€” Empathetic, supportive dialogue
+- **Technical Advice** â€” Expert-level technical guidance
+- **Professional Communications** â€” Business and formal interactions
+- **Complex Problem-Solving** â€” Multi-step reasoning scenarios
+- **Relationship & Social Advice** â€” Interpersonal guidance
+- **Conflict Resolution** â€” De-escalation and mediation techniques
 
 **Characteristics:**
-- ✓ Context-aware responses
-- ✓ Multi-turn conversation support
-- ✓ Sophisticated reasoning patterns
-- ✓ Real-world applicability
+- âœ“ Context-aware responses
+- âœ“ Multi-turn conversation support
+- âœ“ Sophisticated reasoning patterns
+- âœ“ Real-world applicability
 
 **Use Cases:**
 - Empathetic AI assistants
@@ -369,7 +369,7 @@ python run_all.py
 
 ---
 
-## 📂 Dataset Categories & Specifications
+## ðŸ“‚ Dataset Categories & Specifications
 
 [![Categories: 5](https://img.shields.io/badge/Categories-5-orange.svg)](#-dataset-categories--specifications)
 [![Data Types: Mixed](https://img.shields.io/badge/Data%20Types-Mixed-purple.svg)](#-dataset-categories--specifications)
@@ -407,40 +407,40 @@ Generated datasets are organized hierarchically with **500 total JSONL files** (
 
 ```
 output/
-├── qa/
-│   ├── qa_001.jsonl          # 20K-50K samples
-│   ├── qa_002.jsonl
-│   ├── ...
-│   └── qa_100.jsonl
-│
-├── chat/
-│   ├── chat_001.jsonl        # 20K-50K samples
-│   ├── chat_002.jsonl
-│   ├── ...
-│   └── chat_100.jsonl
-│
-├── coding/
-│   ├── coding_001.jsonl      # 25K-50K samples
-│   ├── coding_002.jsonl
-│   ├── ...
-│   └── coding_100.jsonl
-│
-├── math/
-│   ├── math_001.jsonl        # 25K-50K samples
-│   ├── math_002.jsonl
-│   ├── ...
-│   └── math_100.jsonl
-│
-├── advanced/
-│   ├── advanced_001.jsonl    # 30K-50K samples
-│   ├── advanced_002.jsonl
-│   ├── ...
-│   └── advanced_100.jsonl
-│
-└── metadata.json             # Summary statistics and dataset info
+â”œâ”€â”€ qa/
+â”‚   â”œâ”€â”€ qa_001.jsonl          # 20K-50K samples
+â”‚   â”œâ”€â”€ qa_002.jsonl
+â”‚   â”œâ”€â”€ ...
+â”‚   â””â”€â”€ qa_100.jsonl
+â”‚
+â”œâ”€â”€ chat/
+â”‚   â”œâ”€â”€ chat_001.jsonl        # 20K-50K samples
+â”‚   â”œâ”€â”€ chat_002.jsonl
+â”‚   â”œâ”€â”€ ...
+â”‚   â””â”€â”€ chat_100.jsonl
+â”‚
+â”œâ”€â”€ coding/
+â”‚   â”œâ”€â”€ coding_001.jsonl      # 25K-50K samples
+â”‚   â”œâ”€â”€ coding_002.jsonl
+â”‚   â”œâ”€â”€ ...
+â”‚   â””â”€â”€ coding_100.jsonl
+â”‚
+â”œâ”€â”€ math/
+â”‚   â”œâ”€â”€ math_001.jsonl        # 25K-50K samples
+â”‚   â”œâ”€â”€ math_002.jsonl
+â”‚   â”œâ”€â”€ ...
+â”‚   â””â”€â”€ math_100.jsonl
+â”‚
+â”œâ”€â”€ advanced/
+â”‚   â”œâ”€â”€ advanced_001.jsonl    # 30K-50K samples
+â”‚   â”œâ”€â”€ advanced_002.jsonl
+â”‚   â”œâ”€â”€ ...
+â”‚   â””â”€â”€ advanced_100.jsonl
+â”‚
+â””â”€â”€ metadata.json             # Summary statistics and dataset info
 ```
 
-**📊 Dataset Statistics:**
+**ðŸ“Š Dataset Statistics:**
 - **Total Files:** 2,300 JSONL files (100 per category)
 - **Total Samples:** 93M+ unique data points
 - **Average Lines per File:** 30K-50K (varies by category)
@@ -450,7 +450,7 @@ output/
 - **Categories:** 23 specialized domains
 - **Streaming Optimized:** Each file can be processed independently
 
-## 📈 Dataset Scale & Structure
+## ðŸ“ˆ Dataset Scale & Structure
 
 [![Total Files: 2300-2400](https://img.shields.io/badge/Total%20Files-2300--2400%20JSONL-brightgreen.svg)](#-dataset-scale--structure)
 [![Total Samples: 93M-100M](https://img.shields.io/badge/Total%20Samples-93M--100M-orange.svg)](#-dataset-scale--structure)
@@ -498,14 +498,14 @@ The AI Dataset Generator creates a **massive, well-organized training dataset** 
 
 #### Why 2,300 JSONL Files?
 
-🎯 **Key Benefits:**
-- **✅ Parallel Processing:** Process 23 categories × 100 files simultaneously
-- **✅ Memory Efficient:** Load one file at a time (~50MB typical)
-- **✅ Easy Distribution:** Share individual files or categories across systems
-- **✅ Fault Tolerance:** One corrupted file doesn't affect other 2,299 files
-- **✅ Scalability:** Easy to combine multiple dataset runs
-- **✅ Streaming Support:** Perfect for PyTorch, TensorFlow DataLoaders
-- **✅ Specialized Training:** Use specific categories for domain-specific models
+ðŸŽ¯ **Key Benefits:**
+- **âœ… Parallel Processing:** Process 23 categories Ã— 100 files simultaneously
+- **âœ… Memory Efficient:** Load one file at a time (~50MB typical)
+- **âœ… Easy Distribution:** Share individual files or categories across systems
+- **âœ… Fault Tolerance:** One corrupted file doesn't affect other 2,299 files
+- **âœ… Scalability:** Easy to combine multiple dataset runs
+- **âœ… Streaming Support:** Perfect for PyTorch, TensorFlow DataLoaders
+- **âœ… Specialized Training:** Use specific categories for domain-specific models
 
 ---
 
@@ -517,7 +517,7 @@ The AI Dataset Generator creates a **massive, well-organized training dataset** 
 
 ### Minimum Configuration
 
-For generating ***small datasets*** (100K–1M samples):
+For generating ***small datasets*** (100Kâ€“1M samples):
 
 | Resource | Requirement |
 |---|---|
@@ -529,7 +529,7 @@ For generating ***small datasets*** (100K–1M samples):
 
 ### Recommended Configuration
 
-For generating ***large datasets*** (10M–100M samples):
+For generating ***large datasets*** (10Mâ€“100M samples):
 
 | Resource | Requirement |
 |---|---|
@@ -559,13 +559,13 @@ For generating ***large datasets*** (10M–100M samples):
 
 ---
 
-## 📦 Installation & Setup
+## ðŸ“¦ Installation & Setup
 
 [![Setup Time: < 5 mins](https://img.shields.io/badge/Setup%20Time-%3C%205%20mins-brightgreen.svg)](#-installation--setup)
 [![Difficulty: Easy](https://img.shields.io/badge/Difficulty-Easy-green.svg)](#-installation--setup)
 
 - **Python 3.7+** installed on your system
-- **pip** (Python package manager) — optional, not required
+- **pip** (Python package manager) â€” optional, not required
 - **Git** for cloning the repository
 
 ### Setup Steps
@@ -597,7 +597,7 @@ source venv/bin/activate
 
 ---
 
-## 🚀 Usage Instructions
+## ðŸš€ Usage Instructions
 
 [![Getting Started: 30 seconds](https://img.shields.io/badge/Getting%20Started-30%20seconds-brightgreen.svg)](#-usage-instructions)
 [![Difficulty: Beginner](https://img.shields.io/badge/Difficulty-Beginner-green.svg)](#-usage-instructions)
@@ -667,7 +667,7 @@ with open('output/combined_dataset.json', 'w') as f:
 
 ---
 
-## 📊 Dataset Output Structure
+## ðŸ“Š Dataset Output Structure
 
 [![Format: JSON](https://img.shields.io/badge/Format-JSON-9cf.svg)](#-dataset-output-structure)
 [![Encoding: UTF-8](https://img.shields.io/badge/Encoding-UTF--8-blue.svg)](#-dataset-output-structure)
@@ -712,7 +712,7 @@ All datasets are saved in **minified JSON format** for efficient storage:
 
 ---
 
-## ⚡ Performance & Benchmarks
+## âš¡ Performance & Benchmarks
 
 [![Speed: High](https://img.shields.io/badge/Speed-High-brightgreen.svg)](#-performance--benchmarks)
 [![Throughput: 10K+ samples/sec](https://img.shields.io/badge/Throughput-10K%2B%20samples%2Fsec-green.svg)](#-performance--benchmarks)
@@ -720,39 +720,39 @@ All datasets are saved in **minified JSON format** for efficient storage:
 
 | Operation | Samples/Second | Avg. Time per Sample |
 |---|---|---|
-| Q&A Generation | 5,000–10,000 | 0.1–0.2 ms |
-| Chat Generation | 3,000–7,000 | 0.15–0.33 ms |
-| Coding Generation | 2,000–5,000 | 0.2–0.5 ms |
-| Math Generation | 4,000–8,000 | 0.125–0.25 ms |
-| File Writing | 10,000–50,000 | 0.02–0.1 ms |
+| Q&A Generation | 5,000â€“10,000 | 0.1â€“0.2 ms |
+| Chat Generation | 3,000â€“7,000 | 0.15â€“0.33 ms |
+| Coding Generation | 2,000â€“5,000 | 0.2â€“0.5 ms |
+| Math Generation | 4,000â€“8,000 | 0.125â€“0.25 ms |
+| File Writing | 10,000â€“50,000 | 0.02â€“0.1 ms |
 
 ### Memory Usage
 
 - **Per-Sample Memory:** ~500 bytes (average)
-- **File I/O Buffer:** Configurable (typically 50–100 MB)
+- **File I/O Buffer:** Configurable (typically 50â€“100 MB)
 - **Peak Memory Usage:** Generally stays below 2 GB on moderate datasets
 
 ### Optimization Tips
 
-1. **Use SSD Storage** — Significantly faster I/O operations
-2. **Increase Buffer Size** — If system has sufficient RAM
-3. **Parallelize Generation** — Run multiple generators in parallel using threading
-4. **Compress Output** — Use gzip for storage efficiency
-5. **Batch Processing** — Process multiple samples at once
+1. **Use SSD Storage** â€” Significantly faster I/O operations
+2. **Increase Buffer Size** â€” If system has sufficient RAM
+3. **Parallelize Generation** â€” Run multiple generators in parallel using threading
+4. **Compress Output** â€” Use gzip for storage efficiency
+5. **Batch Processing** â€” Process multiple samples at once
 
 ---
 
-## 🛡️ Data Quality Assurance
+## ðŸ›¡ï¸ Data Quality Assurance
 
 [![Quality: 100%](https://img.shields.io/badge/Quality-100%25-brightgreen.svg)](#-data-quality-assurance)
 [![Uniqueness: Guaranteed](https://img.shields.io/badge/Uniqueness-Guaranteed-success.svg)](#-data-quality-assurance)
 [![Validation: Included](https://img.shields.io/badge/Validation-Included-blue.svg)](#-data-quality-assurance)
 
-✅ **Uniqueness:** 100% — Every sample has a globally unique UUID  
-✅ **Accuracy:** Domain-dependent — Validate against source materials  
-✅ **Consistency:** Schema validation across all samples  
-✅ **Diversity:** Random sampling ensures variety  
-✅ **Completeness:** All required fields present in every sample  
+âœ… **Uniqueness:** 100% â€” Every sample has a globally unique UUID  
+âœ… **Accuracy:** Domain-dependent â€” Validate against source materials  
+âœ… **Consistency:** Schema validation across all samples  
+âœ… **Diversity:** Random sampling ensures variety  
+âœ… **Completeness:** All required fields present in every sample  
 
 ### Quality Checks
 
@@ -806,7 +806,7 @@ Before using generated datasets for training:
 
 ---
 
-## 🔧 Troubleshooting
+## ðŸ”§ Troubleshooting
 
 [![Issues: 5 Common](https://img.shields.io/badge/Common%20Issues-5-orange.svg)](#-troubleshooting)
 [![Solutions: Included](https://img.shields.io/badge/Solutions-Included-brightgreen.svg)](#-troubleshooting)
@@ -855,12 +855,12 @@ icacls output /grant:r "%USERNAME%":F
 **Cause:** UUID collision (extremely rare) or script re-run  
 **Solution:**
 - Clear output directory before re-running
-- UUID4 collision probability: < 1 in 5.3 × 10^36
+- UUID4 collision probability: < 1 in 5.3 Ã— 10^36
 - If duplicates occur, use `set()` to deduplicate
 
 ---
 
-## ❓ FAQ
+## â“ FAQ
 
 [![Questions: 10+](https://img.shields.io/badge/Questions-10%2B-9cf.svg)](#-faq)
 [![Answers: Comprehensive](https://img.shields.io/badge/Answers-Comprehensive-brightgreen.svg)](#-faq)
@@ -946,7 +946,7 @@ json.dump(unique, open('output/combined.json', 'w'), indent=2)
 
 ---
 
-## 🤝 Contributing
+## ðŸ¤ Contributing
 
 [![Contributions: Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](#-contributing)
 [![Guidelines: Provided](https://img.shields.io/badge/Guidelines-Provided-blue.svg)](#-contributing)
@@ -968,16 +968,16 @@ json.dump(unique, open('output/combined.json', 'w'), indent=2)
 
 ### Ideas for Contribution
 
-- 🎯 Add new dataset categories (science, history, etc.)
-- 🚀 Optimize generation speed
-- 📊 Add data analysis and visualization tools
-- 🔐 Implement data validation and sanitization
-- 🌐 Add multilingual support
-- 📈 Create web interface for configuration
+- ðŸŽ¯ Add new dataset categories (science, history, etc.)
+- ðŸš€ Optimize generation speed
+- ðŸ“Š Add data analysis and visualization tools
+- ðŸ” Implement data validation and sanitization
+- ðŸŒ Add multilingual support
+- ðŸ“ˆ Create web interface for configuration
 
 ---
 
-## 📄 License & Citation
+## ðŸ“„ License & Citation
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#-license--citation)
 [![Citation: BibTeX](https://img.shields.io/badge/Citation-BibTeX-blue.svg)](#-license--citation)
@@ -997,33 +997,33 @@ If you use this dataset generator in research or publication, please cite:
 
 ---
 
-## 📞 Support & Contact
+## ðŸ“ž Support & Contact
 
 [![GitHub Issues](https://img.shields.io/badge/GitHub%20Issues-Report%20Bugs-red.svg)](https://github.com/asaad123sh/DatasetMaker/issues)
 [![Discussions](https://img.shields.io/badge/Discussions-Ask%20Questions-blue.svg)](https://github.com/asaad123sh/DatasetMaker/discussions)
 [![Email](https://img.shields.io/badge/Email-Get%20Support-green.svg)](mailto:asaadsaif11223366@gmail.com)
 
-- **🐛 Issues:** Open an issue on GitHub for bugs or feature requests
-- **💬 Discussions:** Use GitHub Discussions for questions and ideas
-- **📧 Email:** asaadsaif11223366@gmail.com
-- **📖 Documentation:** Check the wiki for detailed guides
+- **ðŸ› Issues:** Open an issue on GitHub for bugs or feature requests
+- **ðŸ’¬ Discussions:** Use GitHub Discussions for questions and ideas
+- **ðŸ“§ Email:** asaadsaif11223366@gmail.com
+- **ðŸ“– Documentation:** Check the wiki for detailed guides
 
 ---
 
-## 🎯 Key Takeaways
+## ðŸŽ¯ Key Takeaways
 
-| 🎯 Aspect | ⭐ Highlight | 📈 Status |
+| ðŸŽ¯ Aspect | â­ Highlight | ðŸ“ˆ Status |
 |---|---|---|
-| **Scale** | Generate **millions of samples** for large-scale AI training | ✅ Production Ready |
-| **Speed** | Complete generation in **2–3 hours** for very large datasets | ✅ Optimized |
-| **Simplicity** | **Zero dependencies** — pure Python implementation | ✅ Verified |
-| **Quality** | **Unique IDs** ensure no duplicate samples | ✅ Guaranteed |
-| **Flexibility** | **Modular design** allows custom extensions | ✅ Extensible |
-| **Compatibility** | Works with **small to large systems** | ✅ Tested |
+| **Scale** | Generate **millions of samples** for large-scale AI training | âœ… Production Ready |
+| **Speed** | Complete generation in **2â€“3 hours** for very large datasets | âœ… Optimized |
+| **Simplicity** | **Zero dependencies** â€” pure Python implementation | âœ… Verified |
+| **Quality** | **Unique IDs** ensure no duplicate samples | âœ… Guaranteed |
+| **Flexibility** | **Modular design** allows custom extensions | âœ… Extensible |
+| **Compatibility** | Works with **small to large systems** | âœ… Tested |
 
 ---
 
-## 📚 Additional Resources
+## ðŸ“š Additional Resources
 
 - [Python JSON Documentation](https://docs.python.org/3/library/json.html)
 - [UUID Best Practices](https://tools.ietf.org/html/rfc4122)
@@ -1032,7 +1032,7 @@ If you use this dataset generator in research or publication, please cite:
 
 ---
 
-## 🔮 Future Roadmap
+## ðŸ”® Future Roadmap
 
 - [ ] GPU-accelerated generation
 - [ ] Distributed generation across multiple machines
@@ -1054,4 +1054,5 @@ If you use this dataset generator in research or publication, please cite:
 
 ---
 
-*Built with ❤️ for the AI community. Happy dataset generation!*
+*Built with â¤ï¸ for the AI community. Happy dataset generation!*
+
