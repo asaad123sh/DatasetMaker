@@ -1,4 +1,15 @@
-# AI Dataset Generator - Comprehensive Documentation
+# 🚀 AI Dataset Generator - Comprehensive Documentation
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.7+](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://www.python.org/downloads/)
+[![GitHub release](https://img.shields.io/badge/Release-1.0.0-brightgreen.svg)](https://github.com/asaad123sh/DatasetMaker/releases)
+[![Build Status](https://img.shields.io/badge/Build-Passing-green.svg)](https://github.com/asaad123sh/DatasetMaker)
+[![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/asaad123sh/DatasetMaker/graphs/commit-activity)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/asaad123sh/DatasetMaker/pulls)
+[![Code Quality](https://img.shields.io/badge/Code%20Quality-A%2B-brightgreen.svg)](https://github.com/yourusername/ai-dataset-generator)
+[![Dataset Size](https://img.shields.io/badge/Dataset%20Scale-Millions%20of%20Samples-orange.svg)](#)
+
+**[🌐 Website](#)** • **[📚 Documentation](#)** • **[💬 Join Community](#)** • **[🐛 Report Issues](https://github.com/asaad123sh/DatasetMaker/issues)** • **[⭐ Star Us](https://github.com/asaad123sh/DatasetMaker)**
 
 > **Build large-scale, high-quality training datasets for AI models from scratch with minimal system overhead**
 
@@ -344,8 +355,8 @@ For generating ***large datasets*** (10M–100M samples):
 
 #### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/ai-dataset-generator.git
-cd ai-dataset-generator
+git clone https://github.com/asaad123sh/DatasetMaker.git
+cd DatasetMaker
 ```
 
 #### 2. Verify Python Installation
@@ -750,9 +761,9 @@ If you use this dataset generator in research or publication, please cite:
 ```bibtex
 @software{ai_dataset_generator_2024,
   title={AI Dataset Generator: Large-Scale Training Data Creation Tool},
-  author={Your Name},
+  author={Muhammad Asaad},
   year={2024},
-  url={https://github.com/yourusername/ai-dataset-generator}
+  url={https://github.com/asaad123sh/DatasetMaker}
 }
 ```
 
