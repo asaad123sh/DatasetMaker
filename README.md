@@ -58,35 +58,30 @@ The **AI Dataset Generator** is an enterprise-grade Python-based toolkit designe
 
 The generator follows a **modular pipeline architecture**:
 
-```
-┌─────────────────────────────────────────────────────────┐
-│              run_all.py (Entry Point)                    │
-│        Orchestrates the entire generation pipeline       │
-└────────┬────────────────────────────────────────────────┘
-         │
-         ├─────────────────┬──────────────┬──────────────┬──────────────┐
-         ▼                 ▼              ▼              ▼              ▼
-    ┌─────────┐      ┌─────────┐   ┌──────────┐  ┌────────────┐  ┌──────────┐
-    │ qa_gen  │      │chat_gen │   │coding_gen│  │ math_gen   │  │advanced_ │
-    │         │      │         │   │          │  │            │  │categories│
-    └────┬────┘      └────┬────┘   └────┬─────┘  └─────┬──────┘  └────┬─────┘
-         │                │             │              │             │
-         └────────────────┼─────────────┼──────────────┼─────────────┘
-                          │
-                          ▼
-                 ┌──────────────────┐
-                 │   engine.py      │
-                 │  (Core Processing)
-                 │  - UUID Generation
-                 │  - File Writing
-                 │  - Data Formatting
-                 └────────┬─────────┘
-                          │
-                          ▼
-                 ┌──────────────────┐
-                 │  Output Directory │
-                 │  (JSON Files)     │
-                 └──────────────────┘
+```mermaid
+graph TD
+    A["🚀 run_all.py<br/>Entry Point<br/>Orchestrates Pipeline"] --> B["📚 qa_gen.py<br/>Q&A Generator"]
+    A --> C["💬 chat_gen.py<br/>Chat Generator"]
+    A --> D["💻 coding_gen.py<br/>Coding Generator"]
+    A --> E["🔢 math_gen.py<br/>Math Generator"]
+    A --> F["⭐ advanced_categories_gen.py<br/>23 Advanced Categories"]
+    
+    B --> G["⚙️ engine.py<br/>Core Processing<br/>UUID Generation<br/>File Writing<br/>Data Formatting"]
+    C --> G
+    D --> G
+    E --> G
+    F --> G
+    
+    G --> H["📁 Output Directory<br/>2,300 JSONL Files<br/>93M+ Samples"]
+    
+    style A fill:#4CAF50,stroke:#2E7D32,color:#fff,font-weight:bold
+    style B fill:#2196F3,stroke:#1565C0,color:#fff
+    style C fill:#2196F3,stroke:#1565C0,color:#fff
+    style D fill:#2196F3,stroke:#1565C0,color:#fff
+    style E fill:#2196F3,stroke:#1565C0,color:#fff
+    style F fill:#2196F3,stroke:#1565C0,color:#fff
+    style G fill:#FF9800,stroke:#E65100,color:#fff,font-weight:bold
+    style H fill:#9C27B0,stroke:#6A1B9A,color:#fff,font-weight:bold
 ```
 
 ---
