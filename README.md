@@ -25,6 +25,7 @@
 | 📂 **Dataset Categories** | [Browse Categories](#-dataset-categories--specifications) |
 | 💻 **System Requirements** | [Check Requirements](#-system-requirements) |
 | 📦 **Installation & Setup** | [Get Started](#-installation--setup) |
+| 🔰 **Quick Install Methods (Windows)** | [Install Options](#quick-install-methods-windows) |
 | 🚀 **Usage Instructions** | [Learn How to Use](#-usage-instructions) |
 | 📊 **Dataset Output Structure** | [See Output Format](#-dataset-output-structure) |
 | ⚡ **Performance & Benchmarks** | [View Performance](#-performance--benchmarks) |
